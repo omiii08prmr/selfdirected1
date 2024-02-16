@@ -2,7 +2,10 @@
 #include <stdio.h>
 
 int main(void)
-
+{
+	int i = 1;
+	int maxnum = 500;
+	int sum = 0;
 
 	while (i <= maxnum)
 	{
@@ -10,5 +13,7 @@ int main(void)
 		i++;
 
 	}
+	printf("%d\n", sum);
 
+	return 0;
 }
